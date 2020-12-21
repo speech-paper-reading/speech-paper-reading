@@ -8,8 +8,13 @@
   
 ## Contributors  
   
-- [Soohwan Kim](https://github.com/sooftware)  
 - [Donghyun Kwak](https://github.com/imcomking)  
+- [Soohwan Kim](https://github.com/sooftware)  
+- [Seongbin Kim](https://github.com/zelabean)  
 - [Jaehwan Lee](https://github.com/jaehwlee)
 - [Soonshin Seo](https://github.com/sunshines14)  
-  
+- [Seongkyu Moon](https://github.com/skmun-github)  
+- [Donghyun Lee](https://github.com/dhtheuno)  
+- [Cheongam Jeong](https://github.com/ninackjeong)  
+- [Hyerim](https://github.com/hreeeeMarina)  
+
