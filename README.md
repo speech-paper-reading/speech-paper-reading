@@ -7,7 +7,7 @@
 ## Papers  
   
 - 2020.12.22 [One Model, Many Languages: Meta-learning for Multilingual Text-to-Speech](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/One-model-many-languages.md)
-- 2020.12.22 [Streaming Automatic Speech Recogniton with the Transformer Model](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/streaming-automatic-speech-recogniton-with-the-transformer-model.md)
+- 2020.12.22 [Streaming Automatic Speech Recogniton with the Transformer Model](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/streaming-automatic-speech-recognition-with-the-transformer-model)
   
   
 ## Contributors  
