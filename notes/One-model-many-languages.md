@@ -22,6 +22,13 @@ INTERSPEECH, 2020
 * Voice Cloning : Speech in multiple languages with the same voice  
 * Code switching : Speak two (or more) languages with a single utterance.  
   
+## TTS System  
+  
+<img src="https://user-images.githubusercontent.com/42150335/102853834-74af5c80-4464-11eb-9609-6f815e67b25a.png" width=700>  
+  
+- Mel-Predict Network: 생성하고 싶은 텍스트를 입력으로 받아 Mel-Spectrogram을 생성하는 네트워크  
+- Vocoder: Mel-Predict Network가 생성한 Mel-Spectrogram을 입력으로 받아 음성신호(Waveform)로 생성하는 네트워크
+  
 ## Tacotron
   
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwnGyQ%2FbtqDblNauXg%2FJsSXkwgQY1yc3lIHtdgIP0%2Fimg.png" width=700>
