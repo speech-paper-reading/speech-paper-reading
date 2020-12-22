@@ -6,6 +6,8 @@
   
 ## Papers  
   
+- 2020.12.22 [One Model, Many Languages: Meta-learning for Multilingual Text-to-Speech](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/One-model-many-languages.md)
+  
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
