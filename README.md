@@ -20,5 +20,5 @@
 - [Seongkyu Moon](https://github.com/skmun-github)  
 - [Donghyun Lee](https://github.com/dhtheuno)  
 - [Cheongam Jeong](https://github.com/ninackjeong)  
-- [Hyerim](https://github.com/hreeeeMarina)  
+- [Hyerim ](https://github.com/hreeeeMarina)  
 
