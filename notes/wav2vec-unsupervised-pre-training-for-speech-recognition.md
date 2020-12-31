@@ -14,16 +14,18 @@ Facebook AI Research
 
 ## Mdoel
 
-![Screenshot from 2020-12-28 02-14-43](https://user-images.githubusercontent.com/47840814/103176236-72f5f680-48b3-11eb-8375-b7fa28911c26.png)
+<img src="https://user-images.githubusercontent.com/47840814/103176236-72f5f680-48b3-11eb-8375-b7fa28911c26.png" width=700>
 
 - Encoder network embeds the audio signal in a **latent space**
     - CNN with kernel sizes (10,8,4,4,4) and strides (5,4,2,2,2)
     - Output is **low frequency feature** which encodes about 30,s of 16kHz os audio (striding results z<sub>i</sub> in every 10ms)
 
 - Context network combines multiple time-steps of the encoder to obtain contextualized representations
+    - nine layers with kernel size three and stride one
+    - total **receptive field** of the context network is about 210ms
 
 ## Objective
-![Screenshot from 2020-12-28 02-15-16](https://user-images.githubusercontent.com/47840814/103176226-6a052500-48b3-11eb-92e0-3e79c1900215.png)
+<img src="https://user-images.githubusercontent.com/47840814/103176226-6a052500-48b3-11eb-92e0-3e79c1900215.png" width=700>
 
 - Minimizing contrastive loss for each step k = 1,...,K
 - The model basically has to tell which on is the future sample z<sub>i+k</sub> from negative samples (randomly picked sample from audio)
@@ -53,22 +55,24 @@ Facebook AI Research
 - trained on 8 NVIDIA V100 GPUs
     
 ### Decoding
-![Screenshot from 2020-12-29 21-24-02](https://user-images.githubusercontent.com/47840814/103283554-385b9d80-4a1c-11eb-87ff-91bc6ee35860.png)
-- 4 gram KenLM language model
-- Word-based convolutional language model
-character based convolutional language model
+<img src="https://user-images.githubusercontent.com/47840814/103283554-385b9d80-4a1c-11eb-87ff-91bc6ee35860.png" width=700> 
 
+- Three different LM:
+    - 4 gram KenLM language model
+    - Word-based convolutional language model
+    - character based convolutional language model
 
-### Results
+## Results
+
 - pre-training with larger dataset brings better result
 - fine-tunning doesn't have a great effect on the pre-training embedding but only increases acoustic model training time 
 - Also pretraining with more than K=12 steps doesn't result in better performance 
 
-**with WSJ** 
-- pre-trained model reduce WET by **36%** on nov92 \
+### with WSJ 
+<img src="https://user-images.githubusercontent.com/47840814/103283504-13ffc100-4a1c-11eb-9fb7-263b548f153c.png" width=700> 
 
-![Screenshot from 2020-12-28 02-45-51](https://user-images.githubusercontent.com/47840814/103283504-13ffc100-4a1c-11eb-9fb7-263b548f153c.png) \
+- About 36%
 
-**With TIMIT** \
-![Screenshot from 2020-12-29 22-02-53](https://user-images.githubusercontent.com/47840814/103285495-a2c30c80-4a21-11eb-8aa7-f437295ea921.png)
+### With TIMIT
+<img src="https://user-images.githubusercontent.com/47840814/103285495-a2c30c80-4a21-11eb-8aa7-f437295ea921.png" width=700>
 

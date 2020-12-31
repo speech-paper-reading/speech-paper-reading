@@ -9,7 +9,7 @@
 - 2020.12.22 [One Model, Many Languages: Meta-learning for Multilingual Text-to-Speech](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/One-model-many-languages.md)
 - 2020.12.22 [Streaming Automatic Speech Recogniton with the Transformer Model](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/streaming-automatic-speech-recognition-with-the-transformer-model.md)
 
-- 2020.12.31 [wav2vec: Unsupervised Pre-training for Speech Recognition]()
+- 2020.12.31 [wav2vec: Unsupervised Pre-training for Speech Recognition](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/wav2vec-unsupervised-pre-training-for-speech-recognition.md)
   
 ## Contributors  
   
