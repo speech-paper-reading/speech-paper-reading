@@ -28,7 +28,7 @@ Facebook AI Research
 <img src="https://user-images.githubusercontent.com/47840814/103176226-6a052500-48b3-11eb-92e0-3e79c1900215.png" width=700>
 
 - Minimizing contrastive loss for each step k = 1,...,K
-- The model basically has to tell which on is the future sample z<sub>i+k</sub> from negative samples (randomly picked sample from audio)
+- The model basically has to distinguish which one is the future sample z<sub>i+k</sub> from negative samples (randomly picked sample from audio)
 - &lambda; is the number of negatives
 
 ## Experimental Setup
