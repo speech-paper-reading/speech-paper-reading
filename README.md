@@ -13,7 +13,7 @@
 
 - 2020.12.31 [Voice Separation with an Unknown Number of Multiple Speakers](https://github.com/facebookresearch/svoice?fbclid=IwAR3pcpgyTdQPfa6pR6Ox7ge7fS00R0ApY5MrHdXtoB7nY17aNiIFfgRzHPs)
 
-
+- 2021.01.07 [Data-driven Harmonic Filters for Audio Representation Learning](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/harmonic-cnn.md)
 
 
   
