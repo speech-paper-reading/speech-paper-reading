@@ -15,6 +15,8 @@
 
 - 2021.01.07 [Data-driven Harmonic Filters for Audio Representation Learning](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/harmonic-cnn.md)
 
+- 2021.01.07 [SpeechMix - Augmenting Deep Sound Recognition using Hidden Space Interpolations](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/speechmix_study_ppt.pdf)
+
 
   
 ## Contributors  
