@@ -17,7 +17,7 @@
 
 - 2021.01.07 [SpeechMix - Augmenting Deep Sound Recognition using Hidden Space Interpolations](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/speechmix_study_ppt.pdf)
 
-
+- 2021.01.14 [Automatic voice onset time estimation from reassignment spectra](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/Auto_VOT_reassignment_spectra_CheonkamJeong.pdf)
   
 ## Contributors  
   
