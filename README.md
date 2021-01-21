@@ -20,6 +20,8 @@
 - 2021.01.14 [Automatic voice onset time estimation from reassignment spectra](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/Auto_VOT_reassignment_spectra_CheonkamJeong.pdf)
   
 - 2021.01.21 [Conformer: Convolution-augmented Transformer for Speech Recognition](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/conformer.md)
+
+- 2021.01.21 [Embeddings for Multi-Modality](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/Embedding_skmun.pdf)
   
 ## Contributors  
   
@@ -28,7 +30,7 @@
 - [Seongbin Kim](https://github.com/zelabean)  
 - [Jaehwan Lee](https://github.com/jaehwlee)
 - [Soonshin Seo](https://github.com/sunshines14)  
-- [Seongkyu Moon](https://github.com/skmun-github)  
+- [Seongkyu Mun](https://github.com/skmun-github)  
 - [Donghyun Lee](https://github.com/dhtheuno)  
 - [Cheongam Jeong](https://github.com/ninackjeong)  
 - [Hyerim Baek](https://github.com/hreeeeMarina)  
