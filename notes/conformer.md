@@ -48,7 +48,7 @@ INTERSPEECH, 2020
 
 ### Convolution Module
   
-<img src="https://d3i71xaburhd42.cloudfront.net/0170fc76e934ee643f869df18fb617d5357e8b4e/2-Figure2-1.png">
+<img src="https://user-images.githubusercontent.com/42150335/105454437-30aeb200-5cc5-11eb-8624-1ea49b71c8cd.png">
   
 - Pointwise Conv  
   
