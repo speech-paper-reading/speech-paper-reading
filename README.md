@@ -22,6 +22,8 @@
 - 2021.01.21 [Conformer: Convolution-augmented Transformer for Speech Recognition](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/conformer.md)
 
 - 2021.01.21 [Embeddings for Multi-Modality](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/Embedding_skmun.pdf)
+
+- 2021.01.28 [Jasper: An End-to-End Convolutional Neural Acoustic Model](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/jasper.pdf)
   
 ## Contributors  
   
