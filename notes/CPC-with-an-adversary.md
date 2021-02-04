@@ -2,13 +2,18 @@ Contrastive Predictive Coding of Audio with an Adversary
 ==
 
 Luyu Wang, Kazuya Kawakamu, and Aaron van den Oord (Deep Mind)
+
 INTERSPEECH, 2020
 
 Reference
 --
 * [paper](https://arxiv.org/pdf/1807.03748.pdf)
 
+* [wav2vec](https://arxiv.org/pdf/1904.05862.pdf)
+
 * [FGSM](https://arxiv.org/pdf/1412.6572.pdf)
+
+* [SimCLR](https://arxiv.org/pdf/2002.05709.pdf) 
 
 * [AudioSet](https://research.google.com/audioset/)
 
@@ -18,6 +23,8 @@ Summary
 --
 * raw audio data에 CPC를 적용하여 general audio representation을 학습
 * adversarial perturbations을 통해 data augmentation를 수행
+* similarity를 구하는 데에 있어서 projection head 개념 사용
+
 
 The Contrastive Predictive Coding Approach
 --
@@ -26,11 +33,11 @@ The Contrastive Predictive Coding Approach
 * self-supervised proxy task : context로부터 future latents를 예측
 
 
-* Encoder : raw audio를 latent space에 매핑
+* <b>Encoder</b> : raw audio를 latent space에 매핑
     * CNN with kernel sizes (10, 4, 4, 4, 4, 4, 4, 4, 1, 1) and strides (5, 2, 2, 2, 2, 2, 2, 2, 1, 1)
     * encode 40ms for every 20ms
 
-* Context network : 이전 정보 요약
+* <b>Context network</b> : 이전 정보 요약
     * CNN with kernel sizes (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13) and strides (1)
     * total receptive field : 1.62s
 
@@ -42,8 +49,6 @@ The Contrastive Predictive Coding Approach
  ![image](https://user-images.githubusercontent.com/33409264/106563597-5d898180-656f-11eb-9cde-f959dd10c811.png)
 
      * loss 자체는 wav2vec과 동일한 형태
-     * consine유사도랑 비선형 변환 같이 쓰면 성능이 더 좋아짐
- 
 
 
 
@@ -51,6 +56,14 @@ The Contrastive Predictive Coding Approach
  ![image](https://user-images.githubusercontent.com/33409264/106564526-ab52b980-6570-11eb-909c-9b8ec38b3c15.png)
 
      *  p(·) : a MLP with a single hidden layer of size 512.
+
+***
+❖ <b>SimCLR</b>
+
+![image](https://user-images.githubusercontent.com/33409264/106864791-b0993b00-670d-11eb-917d-9b01e5639fab.png)
+
+* projection head(g)는 다운스트림 작업에 유용할 수 있는 정보를 제거할 수 있음
+* 따라서 h에서 더 많은 정보를 형성하고 유지
 
 
  Adversarial perturbations Augmentations
@@ -76,6 +89,7 @@ Results
 * <b>Effects of the adversarial perturbations</b>
 ![image](https://user-images.githubusercontent.com/33409264/106713798-4d8ca300-663e-11eb-80c1-ce3134b6b140.png)
 
+***
 
 * <b>Negative sampling distributions</b>
 ![image](https://user-images.githubusercontent.com/33409264/106710899-08667200-663a-11eb-8df4-627c015a361b.png)
@@ -86,7 +100,7 @@ Results
 
 
 
-
+***
 
 
 * <b>Comparison to the state of the art</b>
