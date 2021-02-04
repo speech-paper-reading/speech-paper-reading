@@ -7,7 +7,7 @@ INTERSPEECH, 2020
 
 Reference
 --
-* [paper](https://arxiv.org/pdf/1807.03748.pdf)
+* [paper](https://www.isca-speech.org/archive/Interspeech_2020/pdfs/1891.pdf)
 
 * [wav2vec](https://arxiv.org/pdf/1904.05862.pdf)
 
@@ -32,7 +32,6 @@ The Contrastive Predictive Coding Approach
 
 * self-supervised proxy task : context로부터 future latents를 예측
 
-
 * <b>Encoder</b> : raw audio를 latent space에 매핑
     * CNN with kernel sizes (10, 4, 4, 4, 4, 4, 4, 4, 1, 1) and strides (5, 2, 2, 2, 2, 2, 2, 2, 1, 1)
     * encode 40ms for every 20ms
@@ -40,6 +39,7 @@ The Contrastive Predictive Coding Approach
 * <b>Context network</b> : 이전 정보 요약
     * CNN with kernel sizes (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13) and strides (1)
     * total receptive field : 1.62s
+    * bidirectional
 
 
 
