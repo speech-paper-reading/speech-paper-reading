@@ -24,6 +24,8 @@
 - 2021.01.21 [Embeddings for Multi-Modality](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/Embedding_skmun.pdf)
 
 - 2021.01.28 [Jasper: An End-to-End Convolutional Neural Acoustic Model](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/JASPER.pdf)
+
+- 2021.02.03 [Deep Speaker Recognition: Modular or Monolithic?](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/SR_Modular.md)
   
 ## Contributors  
   
