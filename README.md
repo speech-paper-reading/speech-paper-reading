@@ -27,6 +27,8 @@
 
 - 2021.02.03 [Deep Speaker Recognition: Modular or Monolithic?](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/SR_Modular.md)
   
+- 2021.02.03 [Contrastive Predictive Coding of Audio with an Adversary](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/CPC-with-an-adversary.md)
+
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
