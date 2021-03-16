@@ -30,7 +30,9 @@
 - 2021.02.03 [Contrastive Predictive Coding of Audio with an Adversary](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/CPC-with-an-adversary.md)
 
 - 2021.02.25 [UNetGAN: A Robust Speech Enhancement Approach in Time Domain forExtremely Low Signal-to-noise Ratio Condition](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/UNetGAN.pdf)
-
+  
+- 2021.03.18 [Pushing the Limits of Semi-Supervised Learning for Automatic Speech Recognition](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/push-limits.md)
+  
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
