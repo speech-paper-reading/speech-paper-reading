@@ -33,6 +33,7 @@
   
 - 2021.03.18 [Pushing the Limits of Semi-Supervised Learning for Automatic Speech Recognition](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/push-limits.md)
   
+- 2021.04.01 [Parrotron: An End-to-End Speech-to-Speech Conversion Model and its Applications to Hearing-Impaired Speech and Speech Separation](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/parrotron_210401.pdf)
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
