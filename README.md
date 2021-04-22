@@ -37,6 +37,9 @@
 
 - 2021.04.08 [Cross Modal Audio Search and Retrieval with Joint Embeddings based on Text and Audio](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/cross_modal_audio_search.pdf)
 
+- 2021.04.08 [Coordinate Attention for Efficient Mobile Network Design](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/coordinate_attention.pdf)
+
+
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
