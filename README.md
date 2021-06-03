@@ -39,6 +39,8 @@
 
 - 2021.04.22 [Coordinate Attention for Efficient Mobile Network Design](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/coordinate_attention.pdf)
 
+- 2021.06.03 [VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/VATT.pdf)
+
 
 ## Contributors  
   
