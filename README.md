@@ -41,6 +41,7 @@
 
 - 2021.06.03 [VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/VATT.pdf)
 
+- 2021.06.14 [GPT Understands, Too](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/p-tuning.md)
 
 ## Contributors  
   
