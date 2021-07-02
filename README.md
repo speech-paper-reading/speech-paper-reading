@@ -43,7 +43,7 @@
 
 - 2021.06.14 [GPT Understands, Too](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/p-tuning.md)
 
-- 2021.07.02 [RNN-T MODELS FAIL TO GENERALIZE TO OUT-OF-DOMAIN AUDIO: CAUSES AND SOLUTIONS](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/RNN-T MODELS FAILS TO GENERALIZE TO OUT-OF-DOMAIN AUDIO- CAUSE AND SOLUTIONS.pdf)
+- 2021.07.02 [RNN-T MODELS FAIL TO GENERALIZE TO OUT-OF-DOMAIN AUDIO: CAUSES AND SOLUTIONS](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/RNNT-G.pdf)
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
