@@ -44,6 +44,9 @@
 - 2021.06.14 [GPT Understands, Too](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/notes/p-tuning.md)
 
 - 2021.07.02 [RNN-T MODELS FAIL TO GENERALIZE TO OUT-OF-DOMAIN AUDIO: CAUSES AND SOLUTIONS](https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/RNNT-G.pdf)
+
+- 2021.07.22 [Fast Text-Only Domain Adaptation of RNN-Transducer Prediction Network] (https://github.com/speech-paper-reading/speech-paper-reading/blob/main/docs/DomainAdapt_RNNT_ppt.pdf)
+
 ## Contributors  
   
 - [Donghyun Kwak](https://github.com/imcomking)  
